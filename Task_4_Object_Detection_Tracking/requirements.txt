@@ -1,0 +1,15 @@
+# AI Object Detection & Tracking — Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# Python 3.14 Note:
+#   setuptools 70+ dropped pkg_resources. The tracker uses a custom
+#   histogram embedder (embedder=None in DeepSORT) to avoid this issue.
+#   No extra workaround needed — just install the packages below.
+
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+deep-sort-realtime>=1.3.2
+streamlit>=1.28.0
+numpy>=1.24.0
+Pillow>=9.5.0
+
